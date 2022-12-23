@@ -1,27 +1,27 @@
 // Array of data which shows in navbar 
 export const MenuData = [
   {
-    title: "Home",
+    title: "HOME",
     url: "#",
     cName: "nav-links",
   },
   {
-    title: "Aavartan",
+    title: "AAVARTAN",
     url: "#",
     cName: "nav-links",
   },
   {
-    title: "Sponsors",
+    title: "SPONSORS",
     url: "#",
     cName: "nav-links",
   },
   {
-    title: "Team",
+    title: "TEAM",
     url: "#",
     cName: "nav-links",
   },
   {
-    title: "Contact",
+    title: "CONTACT",
     url: "#",
     cName: "nav-links",
   },
