@@ -1,5 +1,6 @@
 /*Home Styling */
 @import url('https://fonts.cdnfonts.com/css/gotham-black');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
 .gotham-font{
     font-family: 'Gotham Black';
 }
@@ -41,8 +42,20 @@
     background-clip: text;
     
 }
+
+.tagline{
+    color: #fff;
+    position: absolute;
+    font-size:30px ;
+    margin-top: 430px;
+    left: 32%;   
+    font-family: "Poppins";
+    font-size: 50px;
+}
+
+
 .text-Container {
-    margin-top: 30%;
+    margin-top: 89%;
     margin-left: 20%;
     margin-right: 20%;
     color: white;

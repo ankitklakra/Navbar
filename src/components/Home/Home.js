@@ -6,9 +6,8 @@ function Home() {
         <div style={{width:'100%',height:'100%'}}>
         <img src={homeSvg} width="100%" height="100%" alt="logo"/>
             <div className="container">
-                <div className="tag-container">
-                <span className="tagline">THIS IS TECHNOCRACY</span>
-                </div>
+                <div className="tag-container"></div>
+                <p className="tagline">THIS IS TECHNOCRACY</p>
                 <p className="text-Container" >
 				The TechnoCracy is the students' technical committee of NIT Raipur. It
 				was a seed sown in 2007 by a few technical enthusiasts, which has grown
