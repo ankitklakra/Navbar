@@ -1,6 +1,8 @@
 import { Component } from "react";
 import { MenuData } from "./MenuData";
 import "./NavbarStyles.css";
+import logo from "../../images/tcLogo.png";
+
 
 class Navbar extends Component {
   //initializing and handling click when user has pressed ham burger icon
@@ -13,7 +15,7 @@ class Navbar extends Component {
       <nav className="NavbarItems">
         {/* logo */}
         <h2 className="logo">
-          Technocracy
+        <img src={logo} width="100%" height="100%" alt="logo"/>
         </h2>
         {/* Ham burger icon handling onclick event */}
         <div className="menu-icons" onClick={this.handleClick}>
