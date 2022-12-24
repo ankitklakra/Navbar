@@ -1,6 +1,9 @@
 /*Home Styling */
 @import url('https://fonts.cdnfonts.com/css/gotham-black');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Combo&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;300;400&family=Prosto+One&display=swap');
+body{
+    overflow-x: hidden;
+}
 .gotham-font{
     font-family: 'Gotham Black';
 }
@@ -26,7 +29,6 @@
     width: 100%;
 }
 .tag-container {
-    font-family: 'Helvetica';
     font-style: normal;
     margin-left: 25%;
     margin-right: 25%;
@@ -46,16 +48,20 @@
 .tagline{
     color: #fff;
     position: absolute;
-    font-size:30px ;
-    margin-top: 430px;
-    left: 32%;   
-    font-family: "Poppins";
-    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30%;
+    display: inline-block;
+    position: relative;
+    left: 3;
+    /* right: vw; */
+    font-family: 'Prosto One', cursive;
+    /* font-family: "Poppins"; */
+    font-size: 3.6rem;
 }
 
 
 .text-Container {
-    margin-top: 89%;
+    margin-top: 60%;
     margin-left: 20%;
     margin-right: 20%;
     color: white;
@@ -64,6 +70,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    position: relative;
     text-align: center;
   }
   /* @media screen and (max-width:426px) {
