@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
 
+@font-face {
+  font-family: 'valorax';
+  src:  url('fonts/valorax.regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'gotham';
+  src:  url('fonts/gotham-Black.ttf') format('truetype');
+}
 * {
-  font-family: Arial, Helvetica,'Gotham Black', sans-serif, Roboto,;
+  font-family: Arial, Helvetica,'Gotham Black',"Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{

@@ -1,40 +1,24 @@
 /*Home Styling */
-@import url('https://fonts.cdnfonts.com/css/gotham-black');
+@font-face {
+    font-family: 'valorax';
+    src: url('../../fonts/valorax.regular.otf') format('truetype');
+  }
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Combo&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;300;400&family=Prosto+One&display=swap');
 body{
     overflow-x: hidden;
 }
-.gotham-font{
-    font-family: 'Gotham Black';
-}
-.home {
-    margin-top: 80px;
-    width: 100%;
-    height: 200vh;
-    
+
+.main{
+    overflow: hidden;
 }
 
-/* Image container*/
-.container {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    margin-top: 15%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container img {
-    width: 100%;
-}
-.tag-container {
-    font-style: normal;
-    margin-left: 25%;
-    margin-right: 25%;
+.tag-container{
+    font-family: 'valorax';
+    text-transform: uppercase;
     font-weight: 500;
-    font-size: 5vh;
-    line-height: 71px;
+    font-size: 1rem;
+    position: relative;
+    margin-top: -80%;
     text-align: center;
     background: linear-gradient(90deg, #BF4AE9 3.88%,#07FCEF 96.12%), 
     linear-gradient(0deg, #591BBA, #591BBA), 
@@ -42,51 +26,124 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    
 }
 
-.tagline{
+
+.text-container {
     color: #fff;
-    position: absolute;
-    font-weight: 400;
-    margin-top: 30%;
-    display: inline-block;
-    position: relative;
-    left: 3;
-    /* right: vw; */
-    font-family: 'Prosto One', cursive;
-    /* font-family: "Poppins"; */
-    font-size: 3.6rem;
-}
-
-
-.text-Container {
-    margin-top: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    color: white;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1rem;
     position: relative;
+    margin-top: 45%;
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: center;
+   
   }
-  /* @media screen and (max-width:426px) {
-    .text{
-        font-size: 1em;
+  @media screen and (max-width:2560px) {
+    .tag-container{
+        font-size: 6rem;
+         
     }
-    .tagline{
-        font-size: 2em;
+    .text-container{
+        font-size: 1.4rem;
+         
+    }
+  }
+  @media screen and (max-width:1440px) {
+    .tag-container{
+        font-size: 5rem;
+        
+    }
+    .text-container{
+        font-size: 1.2rem;
+        
     }
 
   }
-  @media screen and (min-width:769px) {
-    .text{
-        font-size: 2em;
+  @media screen and (max-width:1024px) {
+    .tag-container{
+        font-size: 3.8rem;
+       
     }
-    .tagline{
-        font-size: 4em;
+    .text-container{
+        font-size: 1rem;
+        
     }
-  } */
+
+  }
+  @media screen and (max-width:896px) {
+    .tag-container{
+        font-size: 3rem;
+        
+    }
+    .text-container{
+        font-size: 0.8rem;
+       
+    }
+
+  }
+  @media screen and (max-width:768px) {
+    .tag-container{
+        font-size: 3rem;
+          
+    }
+    .text-container{
+        font-size: 0.8rem;
+       
+    }
+
+  }
+  @media screen and (max-width:596px) {
+    .tag-container{
+        font-size: 2rem;
+        
+    }
+    .text-container{
+        font-size: 0.6rem;
+         
+    }
+
+  }
+  @media screen and (max-width:520px) {
+    .tag-container{
+        font-size: 1.5rem;
+        
+    }
+    .text-container{
+        font-size: 0.5rem;
+              
+    }
+  }
+  @media screen and (max-width:425px) {
+    .tag-container{
+        font-size: 1rem;
+       
+    }
+    .text-container{
+        font-size: 0.4rem;
+          
+    }
+  }
+  @media screen and (max-width:375px) {
+    .tag-container{
+        font-size: 0.5rem;
+          
+    }
+    .text-container{
+        font-size: 0.4rem;  
+        
+    }
+  }
+  @media screen and (max-width:320px) {
+    .tag-container{
+        font-size: 0.5rem;
+        
+    }
+    .text-container{
+        font-size: 0.4rem;  
+        
+    }
+  }

@@ -1,0 +1,12 @@
+.button{
+    background: linear-gradient(90deg, #096EB7 -2.04%,#7A3FC5 101.7%);
+    border-radius:26.5px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 55px;
+    text-align: center;
+    font-family: "gotham";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+}
