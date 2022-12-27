@@ -8,7 +8,6 @@ function Timeline() {
       <div>
         <div class="headings">
           <h2> Our Journey</h2>
-          <hr />
         </div>
         <div class="containers">
   
