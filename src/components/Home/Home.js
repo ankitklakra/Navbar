@@ -1,5 +1,7 @@
+import React from 'react';
 import "./HomeStyles.css";
 import homeSvg from "../../images/home.svg";
+import { Cycler } from "react-text-scrambler";
 import { Cycler } from "react-text-scrambler";
 // Default component below Navbar
 function Home() {
