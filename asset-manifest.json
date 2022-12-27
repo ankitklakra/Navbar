@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/technocracy-v2/static/css/main.b90bee18.css",
-    "main.js": "/technocracy-v2/static/js/main.c493838b.js",
+    "main.css": "/technocracy-v2/static/css/main.7643c09b.css",
+    "main.js": "/technocracy-v2/static/js/main.672eaa4f.js",
     "static/media/home.svg": "/technocracy-v2/static/media/home.4e4ba803ceea5f75c9167bbe3d73ee7e.svg",
     "static/media/gotham-Black.ttf": "/technocracy-v2/static/media/gotham-Black.8c419f68c27774b4d63c.ttf",
     "static/media/valorax.regular.otf": "/technocracy-v2/static/media/valorax.regular.aefcde538ff97713bf6c.otf",
     "index.html": "/technocracy-v2/index.html",
-    "main.b90bee18.css.map": "/technocracy-v2/static/css/main.b90bee18.css.map",
-    "main.c493838b.js.map": "/technocracy-v2/static/js/main.c493838b.js.map"
+    "main.7643c09b.css.map": "/technocracy-v2/static/css/main.7643c09b.css.map",
+    "main.672eaa4f.js.map": "/technocracy-v2/static/js/main.672eaa4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90bee18.css",
-    "static/js/main.c493838b.js"
+    "static/css/main.7643c09b.css",
+    "static/js/main.672eaa4f.js"
   ]
 }
